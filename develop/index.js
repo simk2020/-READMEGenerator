@@ -14,6 +14,7 @@ const questions = [
     {
         message :"Table of Contents", 
         name: "list" 
+        // WHEN I click on the links in the Table of Contents, THEN I am taken to the corresponding section of the README
     },
 
     {
@@ -28,39 +29,38 @@ const questions = [
     },
     
     {
-        message :"License",
-        name: "" 
+        message :"what Licenses are required for this project",
+        name: "License" 
+        // a license for my application from a list of options
     },
     
     {
-        message :"Contributing" ,
-        name: "" 
+        message :"Who were the contributors to this project? " ,
+        name: "Contributor" 
     },
    
     {
-        message :"Tests",
-        name: "" 
+        message :"What is the Tests process?",
+        name: "Test" 
     },
 
     {
         message :"Questions",
-        name: "" 
+        name: "Questions" 
     },
     
- 
-    THEN a high-quality, professional README.md is generated with 
-    WHEN I enter my project title
-    THEN this is displayed as the title of the README
-    WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-    THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    WHEN I choose a license for my application from a list of options
-    THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-    WHEN I enter my GitHub username
-    THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-    WHEN I enter my email address
-    THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-    WHEN I click on the links in the Table of Contents
-    THEN I am taken to the corresponding section of the README
+    {
+        message :"GitHub username",
+        name : "Github"
+        // to be added to the questions section of the README entitled Questions, with a link to my GitHub profile
+    },
+
+    {
+        message :"Email Address",
+        name : "Email"
+        // to be added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+    }
+
 ];
 
 // function to write README file
