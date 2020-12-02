@@ -67,6 +67,7 @@ inq.prompt ([
 ])
 
 // .then ((response) => response.github...more to publicDecrypt
+console.log (response);
 console.log ("Readme has been generated")
 )
 // array of questions for user
