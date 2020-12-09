@@ -1,6 +1,4 @@
-// function to generate markdown for README
-function generateReadme(answers) {
-  return `# ${answers.title}
+# t
  
   ## Table of Contents
   * [Description] (#Description)
@@ -12,29 +10,26 @@ function generateReadme(answers) {
   * [Questions](#questions)
 
   ## Description
-  ${answers.description}
+  t
   
   ## Installation
-  ${answers.installation}
+  t
   
   ## Usage
-  ${answers.usage}
+  t
   
   ## License
-  ${answers.license}
+  t
   
   ## Contribution
-  ${answers.contribution}
+  t
   
   ## Test
-  ${answers.tests}
+  t
  
   ## Questions :
-  ${answers.questions}
+  t
 
   please feel free to contact me directly if you have any questions via
-  - ${answers.github} 
-  - ${answers.email}
-`;
-}
-module.exports = generateReadme;
+  - t 
+  - t
