@@ -1,7 +1,7 @@
 # t
  
   ## Table of Contents
-  * [Description] (#Description)
+  * [Description](#Description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
