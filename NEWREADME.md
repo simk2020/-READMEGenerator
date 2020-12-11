@@ -1,7 +1,7 @@
-# t
+# new readme generator
  
   ## Table of Contents
-  * [Description](#Description)
+  * [Description] (#Description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
@@ -10,26 +10,26 @@
   * [Questions](#questions)
 
   ## Description
-  t
+  will allow to add the readme
   
   ## Installation
-  t
+  npm i
   
   ## Usage
-  t
+  to generate readme
   
   ## License
-  t
+  none
   
   ## Contribution
-  t
+  simran kaur
   
   ## Test
-  t
+  n.a
  
   ## Questions :
-  t
+  moblue2012@gmail.com
 
   please feel free to contact me directly if you have any questions via
-  - t 
-  - t
+  - simk2020 
+  - moblue2012@gmail.com
